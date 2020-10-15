@@ -1,1 +1,1 @@
-worker:
+worker: python RPS Bot.py

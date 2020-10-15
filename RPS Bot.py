@@ -2,6 +2,7 @@ import discord
 import configparser
 import asyncio
 import random
+import os
 
 
 client = discord.Client()
@@ -96,6 +97,6 @@ async def on_message(message):
         user = client.get_user(718457550038761583)
         await user.send("이름, 프사 바꿔")
 
-client.run("TOKEN")
+client.run(os.environ['token'])
 
 #invite: https://discord.com/oauth2/authorize?client_id=742716258394439691&scope=bot&permissions=60416

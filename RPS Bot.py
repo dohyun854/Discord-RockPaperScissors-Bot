@@ -96,6 +96,6 @@ async def on_message(message):
         user = client.get_user(718457550038761583)
         await user.send("이름, 프사 바꿔")
 
-client.run("NzQyNzE2MjU4Mzk0NDM5Njkx.XzKKaw.wGJjS8iH-4O5ZyL1qD3fWl8VqLo")
+client.run("TOKEN")
 
 #invite: https://discord.com/oauth2/authorize?client_id=742716258394439691&scope=bot&permissions=60416
